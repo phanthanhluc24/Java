@@ -9,7 +9,6 @@ public class MainQLSV {
         Scanner input = new Scanner(System.in);
         Student sv = new Student("", "", 0, "");
         Menu mn = new Menu();
-
         while (true) {
             int option = mn.menuAction();
             switch (option) {
